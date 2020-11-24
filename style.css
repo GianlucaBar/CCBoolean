@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.riquadro{
+  width: 1300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 150px;
+  border-radius: 15px;
+  font-family: sans-serif;
+}
+
+header{
+  text-align: center;
+}
+
+.logo{
+  width: 400px;
+}
+
+.slogan{
+  color: #0be6ab;
+  font-size: 40px
+}
+
+.BarraNav{
+  background-color: #0be6ab;
+  width: 1000px;
+  margin: auto;
+  padding: 15px;
+}
+
+.center{
+  text-align: center;
+}
+
+.info{
+  color: white;
+}
+
+.mezzo span::before{
+  content: "\25A0" " ";
+}
+
+.mezzo span{
+  font-size: 25px;
+  display: inline-block;
+  font-weight: bold;
+}
+.posizione .postext::before{
+  content: "\21A6" " ";
+}
+
+
+.barraLow{
+  background-color: #CF131B;
+  width: 200px;
+  border-radius: 3px;
+  line-height: 25px;
+}
+
+.barraMed{
+  background-color: #F3C21A;
+  width: 400px;
+  border-radius: 3px;
+  line-height: 25px;
+}
+
+.barraHigh{
+  background-color: #2ADC25;
+  width: 600px;
+  border-radius: 3px;
+  line-height: 25px;
+}
+
+.indirizzo{
+   line-height: 25px;
+}
+
+.carica span {
+   line-height: 25px;
+}
